@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - API", "1 - API", "{B2420EEE-11FD-45AC-9BA2-2B180FF96CCD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - APP", "2 - APP", "{F28815DC-D0DC-47A3-9194-A4F1E1D267AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{03035F3C-3D4B-464A-9DEF-691E8B5211FB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{E607183E-3D65-447A-9101-62098F0B180E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteAL.Domain", "TesteAL.Domain\TesteAL.Domain.csproj", "{47754956-48BD-48E4-8A00-1D45AF4AE406}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteAL.Repository", "TesteAL.Repository\TesteAL.Repository.csproj", "{1C860B91-56C2-461E-9DD2-7697DD0107D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteAL.Service", "TesteAL.Service\TesteAL.Service.csproj", "{49B9469D-B6E7-45F6-9B13-191651591C1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteAL.API", "TesteAL.API\TesteAL.API.csproj", "{185D9CE5-679F-4BB8-BDF7-319C2A826AC0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47754956-48BD-48E4-8A00-1D45AF4AE406}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47754956-48BD-48E4-8A00-1D45AF4AE406}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47754956-48BD-48E4-8A00-1D45AF4AE406}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47754956-48BD-48E4-8A00-1D45AF4AE406}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C860B91-56C2-461E-9DD2-7697DD0107D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C860B91-56C2-461E-9DD2-7697DD0107D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C860B91-56C2-461E-9DD2-7697DD0107D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C860B91-56C2-461E-9DD2-7697DD0107D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49B9469D-B6E7-45F6-9B13-191651591C1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49B9469D-B6E7-45F6-9B13-191651591C1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49B9469D-B6E7-45F6-9B13-191651591C1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49B9469D-B6E7-45F6-9B13-191651591C1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{185D9CE5-679F-4BB8-BDF7-319C2A826AC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{185D9CE5-679F-4BB8-BDF7-319C2A826AC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{185D9CE5-679F-4BB8-BDF7-319C2A826AC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{185D9CE5-679F-4BB8-BDF7-319C2A826AC0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{47754956-48BD-48E4-8A00-1D45AF4AE406} = {03035F3C-3D4B-464A-9DEF-691E8B5211FB}
+		{1C860B91-56C2-461E-9DD2-7697DD0107D4} = {E607183E-3D65-447A-9101-62098F0B180E}
+		{49B9469D-B6E7-45F6-9B13-191651591C1C} = {F28815DC-D0DC-47A3-9194-A4F1E1D267AB}
+		{185D9CE5-679F-4BB8-BDF7-319C2A826AC0} = {B2420EEE-11FD-45AC-9BA2-2B180FF96CCD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {65E801E3-1392-4338-89F8-C2A7233534B7}
+	EndGlobalSection
+EndGlobal
